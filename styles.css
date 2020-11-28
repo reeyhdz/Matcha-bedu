@@ -1,4 +1,7 @@
 /*Añadiendo color al h1*/
+html {
+    background: #fffbf7;
+}
 h1{
   color: #025157;
   font-family: "Alegreya", serif;
