@@ -51,4 +51,26 @@ button {
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  width: 70%;
+}
+
+.actions {
+  width: 15%;
 }
