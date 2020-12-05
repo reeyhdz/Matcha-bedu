@@ -46,3 +46,9 @@ button {
     margin: 0 auto;
     display: block;
 }
+
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
