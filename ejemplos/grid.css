@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 80px 60px auto 40px;
+  grid-gap: 10px 20px;
+  background-color: #ebebeb;
+}
+
+body > div,
+footer,
+header {
+  background-color: #C0C0C0;
+}
+
+.navigation {
+  grid-column: 1 / -1;
+}
+
+header {
+  grid-column: 1 / -1;
+}
+
+.intro-text-area {
+  grid-column: 1 / -1;
+}
+
+footer {
+  grid-column: 1 / -1;
+}

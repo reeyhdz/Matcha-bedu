@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 150px;
+  background-color: #242A31;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+aside {
+  width: 250px;
+  background-color: red;
+}
+
+section {
+  flex: 1;
+  background-color: darkolivegreen;
+}

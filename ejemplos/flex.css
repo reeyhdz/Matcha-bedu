@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+}
+
+.padre {
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hijo {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}

@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 150px auto;
+}
+
+header {
+  grid-column: 1 / -1;
+  background-color: #242A31;
+}
+
+aside { 
+  background-color: darkorange;
+}
+
+section {
+  background-color: darkviolet;
+}

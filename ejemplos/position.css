@@ -1,0 +1,54 @@
+html, body {
+  height: 2000px;
+  margin: 0;
+}
+
+/* .cubito {
+  height: 50px;
+  width: 50px;
+  background-color: darkviolet;
+  position: absolute;
+  left: -25px;
+  transition: ease-in all 0.5s;
+}
+
+.cubito:hover {
+  left: 0;
+} */
+
+.cubito {
+  height: 50px;
+  width: 50px;
+  background-color: darkviolet;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.contenedor {
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+.bandera {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  margin-right: -100px;
+  margin-top: -100px;
+  right: 50%;
+  top: 50%;
+}
+
+.overlay {
+  background-color: gray;
+  opacity: 0.5;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}

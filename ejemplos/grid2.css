@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px auto;
+}
+
+header {
+  grid-column: 1 / -1;
+  background-color: #242A31;
+}
+
+aside {
+  grid-column: 1 / 2;
+  background-color: red;
+}
+
+section {
+  background-color: darkolivegreen;
+  grid-column: 2 / span 2;
+}
